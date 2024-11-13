@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إلى حبيبتي رانيا</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            color: #e91e63;
+            font-size: 50px;
+            margin-top: 30px;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .romantic-text {
+            color: #ff66b2;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 30px;
+            animation: bounce 2s ease infinite;
+        }
+
+        .poem {
+            font-size: 22px;
+            color: #8b0000;
+            margin-top: 40px;
+            line-height: 1.8;
+            text-align: center;
+            animation: slideUp 2s ease-out;
+        }
+
+        .heart {
+            color: #ff1493;
+            font-size: 80px;
+            margin-top: 40px;
+            animation: pulse 1.5s infinite;
+        }
+
+        .button {
+            background-color: #ff1493;
+            color: white;
+            padding: 20px 40px;
+            font-size: 22px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 50px;
+            transition: all 0.3s ease;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #e91e63;
+            transform: scale(1.1);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            color: #555;
+            font-size: 16px;
+        }
+
+        /* التأثيرات */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>إلى حبيبتي رانيا</h1>
+
+    <!-- النص الرومانسي -->
+    <div class="romantic-text">
+        "أنتِ الأمل في حياتي، ومعكِ يصبح كل شيء أجمل."
+    </div>
+
+    <!-- قصيدة حب 1 -->
+    <div class="poem">
+        "كل لحظة معكِ، تجعلني أعيش في عالم آخر،<br>
+        عالم مليء بالحب والفرح، حيث لا مكان إلا لنا."
+    </div>
+
+    <!-- قصيدة حب 2 -->
+    <div class="poem">
+        "أنتِ الهدوء في حياتي، والنبض الذي يجعلني أستمر,<br>
+        معكِ أجد السكينة، وفيكِ أعيش السلام."
+    </div>
+
+    <!-- قلب -->
+    <div class="heart">
+        ❤️
+    </div>
+
+    <!-- زر التفاعل -->
+    <button class="button" onclick="alert('أنتِ كل شيء في حياتي يا رانيا!')">أنتِ كل شيء في حياتي!</button>
+
+    <!-- تذييل -->
+    <footer>
+        <p>تم التصميم بحب من أجلك يا رانيا 💖</p>
+    </footer>
+
+</body>
+</html>
